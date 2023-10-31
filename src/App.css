@@ -1,0 +1,350 @@
+.navbar {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #000000;
+}
+/* Border Color For Dark Theme */
+.dark-theme .navbar {
+  border-bottom: 1px solid #fff;
+}
+.navbar h1 {
+  color: #f1356d;
+  font-size: 34px;
+}
+
+.navbar .btn {
+  padding: 7px 10px;
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #f1356d;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.navbar .btn:focus {
+  outline: none;
+}
+.navbar .btn:hover {
+  background-color: #f1356d;
+  color: #fff;
+}
+.navbar .btn.active {
+  background-color: #f1356d;
+  color: #fff;
+}
+.main {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Todo Page */
+.main .todo-form h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px 0;
+  background-color: #000000;
+  border-radius: 5px 5px 0 0;
+}
+/* ToDo Form for Dark Theme */
+.dark-theme .main .todo-form h2 {
+  color: #000000;
+  background-color: #fff;
+}
+.dark-theme .main .todo-form p {
+  color: #fff;
+}
+/* ***** */
+.main .todo-form {
+  width: 500px;
+  margin: 0 auto;
+}
+.todo-form .input-group {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #f1356d;
+
+  height: 40px;
+}
+.input-group .todo-input {
+  width: 70%;
+  border: none;
+  height: 100%;
+  outline: none;
+  padding: 0 20px;
+  font-size: 18px;
+  flex: 2;
+}
+.input-group .addtodo-btn {
+  background-color: #f1356d;
+  color: #fff;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.todo-list {
+  padding: 20px;
+  background-color: #ededed;
+}
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.todo-option .done-btn {
+  padding: 0 3px;
+  border: 1px solid #000000;
+  font-size: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.todo-option .delete-btn {
+  color: #fff;
+  background-color: #ff0000;
+  padding: 0 3px;
+  border: 1px solid #000000;
+  font-size: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* Register Page */
+
+.reg-form {
+  width: 60%;
+  background-color: #fff;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 0 auto;
+}
+.reg-form .form-header {
+  width: 100%;
+  background-color: #000000;
+
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+/* Dark Theme for registration form */
+.dark-theme .reg-form .form-header {
+  background-color: #fff;
+  border-bottom: 1px solid #000000;
+}
+/* Dark Theme for registration form h2 */
+.dark-theme .reg-form .form-header h2 {
+  color: #000000;
+}
+.reg-form .form-header h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px 0;
+}
+.reg-form .input-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+.reg-form label {
+  font-size: 12px;
+}
+.reg-form .input-group .name-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.reg-form .input-group .name-input {
+  width: 49%;
+}
+.reg-form .input-group .name-input input {
+  display: block;
+  width: 100%;
+}
+.reg-form .input-group .name-input span {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.reg-form .input-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #000000;
+  padding: 6px 20px;
+  background-color: #e8f0fe;
+}
+.reg-form .input-group .input-wrapper {
+  width: 80%;
+}
+.reg-form .reg-btn {
+  padding: 7px 10px;
+  background-color: #f1356d;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px 0 20px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.reg-form .color-input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0 20px;
+}
+.reg-form .color-input-wrapper {
+  width: 80%;
+}
+.reg-form .color-input-wrapper input {
+  margin: 0 10px;
+}
+/* User Data Card
+ */
+
+.user-data-card {
+  width: 40%;
+  margin-left: 20px;
+}
+.user-data-card .card-header {
+  width: 100%;
+  background-color: #000000;
+  border-radius: 10px 10px 0 0;
+}
+/* Dark Theme for user data card header  */
+.dark-theme .user-data-card .card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #000000;
+}
+.dark-theme .user-data-card .card-header h2 {
+  color: #000000;
+}
+/* **** */
+.user-data-card h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px 0;
+}
+.user-data-card .card-content {
+  padding: 20px;
+}
+
+/* Temperature Convertor */
+.temp-container {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+.temp-container h2 {
+  width: 100%;
+  background-color: #000000;
+  border-radius: 10px 10px 0 0;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding: 8px 0;
+}
+.dark-theme .temp-container h2 {
+  background-color: #fff;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+.temp-input-wrapper {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.temp-input-wrapper input {
+  width: 70%;
+  font-size: 16px;
+  background-color: #e8f0fe;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.temp-input-wrapper span {
+  background-color: #f1356d;
+  color: #fff;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Error */
+.error {
+  font-size: 12px;
+  color: red;
+}
+
+/* Theme Class */
+.dark-theme {
+  height: 100vh;
+  background-color: #000000;
+}
+/* Dark mode on off button */
+.dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.dark-mode-toggle input[type="checkbox"] {
+  display: none;
+}
+
+.dark-mode-toggle label {
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  background-color: #000000;
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.dark-mode-toggle input[type="checkbox"]:checked + label {
+  background-color: #ddd;
+}
+
+.dark-mode-toggle label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s;
+}
+
+.dark-mode-toggle input[type="checkbox"]:checked + label::before {
+  transform: translateX(20px);
+}
